@@ -45,6 +45,9 @@ Alternatively, you can specify the active profile in the `application.properties
 ```properties
 spring.profiles.active=dev
 ```
+Command-Line Email Sending Example
+
+The application includes an email-sending functionality that can be tested when the application starts. You can modify the recipient and content by adjusting the method call within the application or invoking an endpoint if you've extended it.
 
 ## Example Use Cases
 
